@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+/* header h1 css */
+#section-one-woman-jacket h2,
+#section-two-man-jacket h2,
+.header-content-two h1 {
+    font-family: 'Bebas Neue',
+        cursive;
+}
+
+/* button css */
+
+/* .header-content-two button {
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+} */

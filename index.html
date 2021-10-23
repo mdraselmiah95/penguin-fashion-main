@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penguin-Fashion</title>
+
+    <!----------- 
+        favicon 
+    -------------->
+    <link rel="shortcut icon" href="./images/penguin.png" type="image/x-icon" />
+
+    <!-- --------------------
+         tailwind css link
+   ------------------------>
+    <link rel="stylesheet" href="./public/style.css" />
+
+    <!-- --------------------
+         main css link     
+   ------------------------>
+
+    <link rel="stylesheet" href="./public/main.css" />
+  </head>
+
+  <body>
+    <header class="bg-colorsOne">
+      <!-- ------------------
+            nav section start 
+        ----------------------->
+
+      <nav>
+        <div
+          class="
+            container
+            flex flex-col flex-wrap
+            items-center
+            px-5
+            py-6
+            mx-auto
+            md:flex-row
+            lg:px-28
+          "
+        >
+          <a class="flex mb-4 md:mb-0">
+            <img class="" src="./images/icons/logo.png" alt="brand" />
+          </a>
+          <nav
+            class="
+              flex flex-wrap
+              items-center
+              justify-center
+              text-base
+              md:ml-auto
+            "
+          >
+            <a class="mr-5 font-bold text-gray-500 hover:text-gray-900" href="#"
+              >Home
+            </a>
+            <a
+              class="mr-5 font-bold text-gray-500 hover:text-gray-900"
+              href="#home"
+              >Product</a
+            >
+            <a
+              class="mr-5 font-bold text-gray-500 hover:text-gray-900"
+              href="#section-one-woman-jacket"
+              >Woman</a
+            >
+            <a
+              class="mr-5 font-bold text-gray-500 hover:text-gray-900"
+              href="#section-two-man-jacket"
+              >Man</a
+            >
+            <a
+              class="mr-5 font-bold text-gray-500 hover:text-gray-900"
+              href="#contact"
+              >Contact us</a
+            >
+          </nav>
+        </div>
+      </nav>
+
+      <!-- ---------------------
+           nav body section start 
+        ------------------------->
+
+      <section id="home">
+        <div
+          class="
+            container
+            flex flex-col
+            items-center
+            px-5
+            py-16
+            mx-auto
+            header-content-two
+            md:flex-row
+            lg:px-28
+          "
+        >
+          <div
+            class="
+              flex flex-col
+              items-start
+              mb-16
+              text-left
+              lg:flex-grow
+              md:w-1/2
+              lg:pr-24
+              md:pr-16 md:mb-0
+            "
+          >
+            <h1 class="mb-4 font-black tracking-wide text-7xl">
+              <span class="text-colorTwo">Be the penguin</span><br />
+              <span class="text-colorThree">of winter</span>
+            </h1>
+            <p
+              class="
+                mb-8
+                text-base
+                font-medium
+                leading-relaxed
+                text-left text-gray-500
+              "
+            >
+              This is a penguin Fashion collection for man and women and
+              specially for winter season.
+            </p>
+            <div class="flex flex-col justify-center lg:flex-row">
+              <button
+                class="
+                  flex
+                  items-center
+                  px-5
+                  py-3
+                  mt-auto
+                  font-semibold
+                  text-white
+                  transition
+                  duration-500
+                  ease-in-out
+                  transform
+                  bg-yellow-400
+                  rounded-lg
+                  hover:bg-green-500
+                  focus:ring-2
+                  ring-offset-current ring-offset-2
+                "
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-5 h-5"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
+                  />
+                </svg>
+                <span class="pl-2">Buy now</span>
+              </button>
+            </div>
+          </div>
+          <div class="w-full lg:w-5/6 lg:max-w-lg md:w-1/2">
+            <img
+              class="object-cover object-center rounded-lg"
+              alt="model"
+              src="./images/jackets/model.png"
+            />
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <!-- ----------------------
+          section one woman jackets
+      ---------------------------->
+
+      <section id="section-one-woman-jacket">
+        <div class="container px-5 py-12 mx-auto lg:px-28">
+          <h2 class="py-4 ml-2 text-5xl text-colorThree">woman jacket</h2>
+          <div class="flex flex-wrap">
+            <!-- content one -->
+
+            <div class="p-2 md:w-1/3">
+              <div class="h-full overflow-hidden shadow-lg rounded-2xl">
+                <div class="p-3.5 flex justify-center">
+                  <img
+                    class="px-16 py-5 bg-colorFour rounded-2xl"
+                    src="./images/jackets/jacket-1.png"
+                    alt="blog"
+                  />
+                </div>
+                <div class="p-3.5">
+                  <h1
+                    class="mb-3 text-2xl font-bold font-mediu text-colorThree"
+                  >
+                    Yellow Coat Jacket
+                  </h1>
+                  <p class="mb-3 leading-relaxed text-gray-500">
+                    Essentials Women's Lightweight Water-Resistant Packable
+                    Puffer Coat ensure quality, fit, and comfort.
+                  </p>
+                  <div class="flex flex-wrap items-center justify-between">
+                    <h3 class="text-4xl font-bold text-colorFive">$234</h3>
+                    <button
+                      class="
+                        flex
+                        items-center
+                        px-5
+                        py-3
+                        mt-auto
+                        font-semibold
+                        text-white
+                        transition
+                        duration-500
+                        ease-in-out
+                        transform
+                        bg-yellow-400
+                        rounded-lg
+                        hover:bg-green-500
+                        focus:ring-2
+                        ring-offset-current ring-offset-2
+                      "
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-5 h-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
+                        />
+                      </svg>
+                      <span class="pl-2">Buy now</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- content two -->
+
+            <div class="p-2 md:w-1/3">
+              <div class="h-full overflow-hidden shadow-lg rounded-2xl">
+                <div class="p-3.5 flex justify-center">
+                  <img
+                    class="px-16 py-5 bg-colorFour rounded-2xl"
+                    src="./images/jackets/jacket-2.png"
+                    alt="blog"
+                  />
+                </div>
+                <div class="p-3.5">
+                  <h1
+                    class="mb-3 text-2xl font-bold font-mediu text-colorThree"
+                  >
+                    Ladies Jacket
+                  </h1>
+                  <p class="mb-3 leading-relaxed text-gray-500">
+                    Essentials Women's Lightweight Water-Resistant Packable
+                    Puffer Coat ensure quality, fit, and comfort.
+                  </p>
+                  <div class="flex flex-wrap items-center justify-between">
+                    <h3 class="text-4xl font-bold text-colorFive">$259</h3>
+                    <button
+                      class="
+                        flex
+                        items-center
+                        px-5
+                        py-3
+                        mt-auto
+                        font-semibold
+                        text-white
+                        transition
+                        duration-500
+                        ease-in-out
+                        transform
+                        bg-yellow-400
+                        rounded-lg
+                        hover:bg-green-500
+                        focus:ring-2
+                        ring-offset-current ring-offset-2
+                      "
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-5 h-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
+                        />
+                      </svg>
+                      <span class="pl-2">Buy now</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- content three-->
+            <div class="p-2 md:w-1/3">
+              <div class="h-full overflow-hidden shadow-lg rounded-2xl">
+                <div class="p-3.5 flex justify-center">
+                  <img
+                    class="px-16 py-5 bg-colorFour rounded-2xl"
+                    src="./images/jackets/jacket-3.png"
+                    alt="blog"
+                  />
+                </div>
+                <div class="p-3.5">
+                  <h1
+                    class="mb-3 text-2xl font-bold font-mediu text-colorThree"
+                  >
+                    Woman Leather Jacket
+                  </h1>
+                  <p class="mb-3 leading-relaxed text-gray-500">
+                    Women's Removable Hooded Faux Leather Jackets Perfect
+                    stitching design with good tailoring.
+                  </p>
+                  <div class="flex flex-wrap items-center justify-between">
+                    <h3 class="text-4xl font-bold text-colorFive">$699</h3>
+                    <button
+                      class="
+                        flex
+                        items-center
+                        px-5
+                        py-3
+                        mt-auto
+                        font-semibold
+                        text-white
+                        transition
+                        duration-500
+                        ease-in-out
+                        transform
+                        bg-yellow-400
+                        rounded-lg
+                        hover:bg-green-500
+                        focus:ring-2
+                        ring-offset-current ring-offset-2
+                      "
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-5 h-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
+                        />
+                      </svg>
+                      <span class="pl-2">Buy now</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ----------------------
+          section two man jackets
+      ---------------------------->
+
+      <section id="section-two-man-jacket">
+        <div class="container px-5 py-12 mx-auto lg:px-28">
+          <h2 class="py-4 ml-2 text-5xl text-colorThree">man jacket</h2>
+          <div class="flex flex-wrap">
+            <!-- content one -->
+
+            <div class="p-2 md:w-1/3">
+              <div class="h-full overflow-hidden shadow-lg rounded-2xl">
+                <div class="p-3.5 flex justify-center">
+                  <img
+                    class="px-16 py-5 bg-colorFour rounded-2xl"
+                    src="./images/jackets/jacket-4.png"
+                    alt="blog"
+                  />
+                </div>
+                <div class="p-3.5">
+                  <h1
+                    class="mb-3 text-2xl font-bold font-mediu text-colorThree"
+                  >
+                    Snowboard Jacket Mens
+                  </h1>
+                  <p class="mb-3 leading-relaxed text-gray-500">
+                    Burton Men's Covert Jacket Slim Fit Constructed from
+                    breathable, quick-drying DRYRIDE fabric.
+                  </p>
+                  <div class="flex flex-wrap items-center justify-between">
+                    <h3 class="text-4xl font-bold text-colorFive">$399</h3>
+                    <button
+                      class="
+                        flex
+                        items-center
+                        px-5
+                        py-3
+                        mt-auto
+                        font-semibold
+                        text-white
+                        transition
+                        duration-500
+                        ease-in-out
+                        transform
+                        bg-red-700
+                        rounded-lg
+                        hover:bg-purple-700
+                        focus:ring-2
+                        ring-offset-current ring-offset-2
+                      "
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-5 h-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
+                        />
+                      </svg>
+                      <span class="pl-2">Buy now</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- content two -->
+
+            <div class="p-2 md:w-1/3">
+              <div class="h-full overflow-hidden shadow-lg rounded-2xl">
+                <div class="p-3.5 flex justify-center">
+                  <img
+                    class="px-16 py-5 bg-colorFour rounded-2xl"
+                    src="./images/jackets/jacket-5.png"
+                    alt="blog"
+                  />
+                </div>
+                <div class="p-3.5">
+                  <h1
+                    class="mb-3 text-2xl font-bold font-mediu text-colorThree"
+                  >
+                    Man Leather Jackets
+                  </h1>
+                  <p class="mb-3 leading-relaxed text-gray-500">
+                    Men's Vintage Asymmetric Zip Lightweight Faux Leather Biker
+                    Jacket for casual daily wear.
+                  </p>
+                  <div class="flex flex-wrap items-center justify-between">
+                    <h3 class="text-4xl font-bold text-colorFive">$659</h3>
+                    <button
+                      class="
+                        flex
+                        items-center
+                        px-5
+                        py-3
+                        mt-auto
+                        font-semibold
+                        text-white
+                        transition
+                        duration-500
+                        ease-in-out
+                        transform
+                        bg-red-700
+                        rounded-lg
+                        hover:bg-purple-700
+                        focus:ring-2
+                        ring-offset-current ring-offset-2
+                      "
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-5 h-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
+                        />
+                      </svg>
+                      <span class="pl-2">Buy now</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- content three-->
+            <div class="p-2 md:w-1/3">
+              <div class="h-full overflow-hidden shadow-lg rounded-2xl">
+                <div class="p-3.5 flex justify-center">
+                  <img
+                    class="px-16 py-5 bg-colorFour rounded-2xl"
+                    src="./images/jackets/jacket-6.png"
+                    alt="blog"
+                  />
+                </div>
+                <div class="p-3.5">
+                  <h1
+                    class="mb-3 text-2xl font-bold font-mediu text-colorThree"
+                  >
+                    Man Casual Jackets
+                  </h1>
+                  <p class="mb-3 leading-relaxed text-gray-500">
+                    Burton Men's Covert Jacket Slim Fit Constructed from
+                    breathable, quick-drying DRYRIDE fabric.
+                  </p>
+                  <div class="flex flex-wrap items-center justify-between">
+                    <h3 class="text-4xl font-bold text-colorFive">$249</h3>
+                    <button
+                      class="
+                        flex
+                        items-center
+                        px-5
+                        py-3
+                        mt-auto
+                        font-semibold
+                        text-white
+                        transition
+                        duration-500
+                        ease-in-out
+                        transform
+                        bg-red-700
+                        rounded-lg
+                        hover:bg-purple-700
+                        focus:ring-2
+                        ring-offset-current ring-offset-2
+                      "
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-5 h-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
+                        />
+                      </svg>
+                      <span class="pl-2">Buy now</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ----------------------
+               section three
+      ---------------------------->
+
+      <section id="contact">
+        <div
+          class="
+            container
+            flex flex-wrap
+            justify-center
+            gap-10
+            px-5
+            py-20
+            mx-auto
+            lg:pr-20 lg:pl-28
+          "
+        >
+          <div
+            class="
+              flex flex-col flex-wrap
+              text-center
+              lg:py-6 lg:w-2/5 lg:text-left
+            "
+          >
+            <div
+              class="
+                flex
+                items-center
+                justify-center
+                p-5
+                mb-4
+                shadow-lg
+                rounded-2xl
+              "
+            >
+              <div class="mr-4">
+                <img src="./images/icons/image 7.png" alt="icon" />
+              </div>
+              <div class="">
+                <h2 class="mb-3 text-2xl font-bold text-colorThree">
+                  Find the Perfect Fit
+                </h2>
+                <p class="text-gray-500">
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="
+                flex
+                items-center
+                justify-center
+                p-5
+                mb-4
+                shadow-lg
+                rounded-2xl
+              "
+            >
+              <div class="mr-4">
+                <img src="./images/icons/image 8.png" alt="icon" />
+              </div>
+              <div class="">
+                <h2 class="mb-3 text-2xl font-bold text-colorThree">
+                  Free Exchanges
+                </h2>
+                <p class="text-gray-500">
+                  One of the many reasons you can shop with peace of mind.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="flex items-center justify-center p-5 shadow-lg rounded-2xl"
+            >
+              <div class="mr-4">
+                <img src="./images/icons/image 9.png" alt="icon" />
+              </div>
+              <div class="">
+                <h2 class="mb-3 text-2xl font-bold text-colorThree">
+                  Contact Our Seller
+                </h2>
+                <p class="text-gray-500">
+                  They are here to help you. That's quite literally what we pay
+                  them for.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="m-auto lg:w-2/4">
+            <img
+              alt="feature"
+              class="object-cover object-center"
+              src="./images/jackets/shopping.png"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ----------------------
+        footer section  start
+      ---------------------------->
+    <footer>
+      <div class="p-5 mb-8 text-center text-gray-500">
+        <p>Copyright &copy; Md Rasel mia by 2021</p>
+      </div>
+    </footer>
+  </body>
+</html>
